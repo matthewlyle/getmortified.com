@@ -1,0 +1,34 @@
+.p-none {padding: 0;}
+.p-smaller {padding: ms(-1);}
+.p-small {padding: ms(0)}
+.p {padding: ms(1)}
+.p-large {padding: ms(3);}
+.p-larger {padding: ms(4)};
+
+.p-top-none {padding-top: 0;}
+.p-top-smaller {padding-top: ms(-1)}
+.p-top-small {padding-top: ms(-1)}
+.p-top {padding-top: ms(1)};
+.p-top-large {padding-top: ms(3)};
+.p-top-larger {padding-top: ms(4)};
+
+.p-bottom-none {padding-bottom: 0;}
+.p-bottom-xs {padding-bottom: ms(-1)}
+.p-bottom-small {padding-bottom: ms(-1)}
+.p-bottom {padding-bottom: ms(1)};
+.p-bottom-large {padding-bottom: ms(3)};
+.p-bottom-larger {padding-bottom: ms(4)};
+
+.p-right-none {padding-right: 0;}
+.p-right-smaller {padding-right: ms(-1)}
+.p-right-small {padding-right: ms(-1)}
+.p-right {padding-right: ms(1)};
+.p-right-large {padding-right: ms(3)};
+.p-right-larger {padding-right: ms(4)};
+
+.p-left-none {padding-left: 0;}
+.p-left-smaller {padding-left: ms(-1)}
+.p-left-small {padding-left: ms(-1)}
+.p-left {padding-left: ms(1)};
+.p-left-large {padding-left: ms(3)};
+.p-left-larger {padding-left: ms(4)};

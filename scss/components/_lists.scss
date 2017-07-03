@@ -1,0 +1,22 @@
+ul, ol {
+	padding-left: ms(2);
+}
+
+li {
+	list-style-type: disc;
+// 	&:not(:last-child) {margin-bottom: ms(1);}
+}
+
+.list-unset {
+	padding-left: 0;
+
+	li {
+		list-style: none;
+		margin-bottom: 0;
+	}
+}
+
+.list-inline {
+	padding-left: 0;
+ 	li {display: inline;}
+ }

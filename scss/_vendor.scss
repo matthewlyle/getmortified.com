@@ -1,0 +1,13 @@
+@import 'vendor/normalize';
+@import 'vendor/font-awesome/scss/font-awesome';
+@import "vendor/neat/neat-helpers";
+$max-width: 1040px;
+@import 'vendor/neat/neat';
+@import 'vendor/slick/slick';
+@import 'vendor/slick/slick-theme';
+@import 'vendor/podcast';
+@import 'vendor/contact-form-7';
+@import 'vendor/wp-featherlight';
+
+.slick-dotted.slick-slider {margin-bottom: 0;}
+.slick-dots {bottom: auto;}

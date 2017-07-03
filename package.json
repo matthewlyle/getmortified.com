@@ -1,0 +1,21 @@
+{
+  "name": "mortified",
+  "author": "Matt Dunn",
+  "version": "0.0.1",
+  "description": "Mortified",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewlyle/mortified.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "3.9",
+    "gulp-sass": "2.3",
+    "gulp-uglify": "2.0.1",
+    "gulp-concat": "2.6.1",
+    "gulp.spritesmith": "6.3.0",
+    "gulp-util": "3.0.8"
+  },
+  "private": true,
+  "license": "Unlicensed"
+}

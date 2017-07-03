@@ -1,0 +1,9 @@
+.c-red, .c-h-red:hover {background: $red;}
+.c-black, .c-h-black:hover {background: $black}
+.c-black-dark, .c-h-black-dark:hover {background: $black-dark;}
+.c-grey, .c-h-grey:hover {background: #eee;}
+.c-yellow, .c-h-yellow:hover {background: yellow}
+.c-white, .c-h-white:hover {background: #fff;}
+
+
+.c-dark-red, .c-h-dark-red:hover {background: darken($red, 10%)}

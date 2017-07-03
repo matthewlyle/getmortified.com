@@ -1,0 +1,98 @@
+/*
+Theme Name: hyphen
+Theme URI: http://github.com/matthewlyle.hyphen
+Author: Matt Dunn
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: hyphen
+Tags:
+
+Hyphens is based on Underscores http://underscores.me/ but without any of the default
+classes.
+
+*/
+
+@import 'variables';
+@import 'fonts';
+@import 'defaults';
+@import 'wordpress';
+@import 'mixins';
+@import 'vendor';
+@import 'defaults';
+@import 'components';
+@import 'utilities';
+
+// focus
+
+#subscribe input:focus {
+	outline: none;
+}
+
+/*
+
+	Hovers
+
+*/
+
+// homepage
+#subscribe input[type="submit"]:hover {
+	transition: .2s;
+	cursor: pointer;
+	background: darken($red, 15%);
+}
+
+.social a:hover {
+	background: none;
+	i {
+		transition: .3s;
+		color: $red;
+	}
+}
+
+
+.social__heading {
+	@media screen and (min-width: 1050px) {
+		display: inline-block;
+		padding-left: 1.5rem;
+	}
+}
+
+
+footer a:hover {
+	background: none;
+	@extend .t-white;
+}
+
+.no-hover:hover {background: none !important;}
+.no-hover a:hover{background: none !important;}
+
+.wpcf7-submit {
+	padding: ms(0);
+	margin-top: ms(0);
+	font-size: 1rem;
+	background: $red;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 3px;
+	font-style: normal;
+	font-family: $heading-font;
+	transition: .2s;
+	&:hover {
+		cursor: pointer;
+		background: darken($red, 5%);
+	}
+}
+
+
+@media screen and (min-width: 600px){
+	.homepage-upcoming-events {padding-left: ms(3)}
+	.homepage-upcoming-events__heading {float: left;}
+	.homepage-upcoming-events__link {float: right;}
+	.site-header {margin-top: ms(3)};
+}
+@media screen and (max-width: 600px){
+		.homepage-spotlight-slider {margin-bottom: ms(5) !important};
+}

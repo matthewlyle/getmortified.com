@@ -1,0 +1,126 @@
+/*
+
+	Site navigation
+
+/*/
+
+header {
+	text-align: center;
+
+	@media screen and (min-width: 1075px){
+		text-align: left;
+	}
+}
+
+.siteNav {
+	@extend .t-centered;
+	display: none;
+	list-style: none;
+	padding-left: 0;
+	position: relative;
+	top: 1em;
+
+	@media screen and (min-width: 1075px){
+		li {display: inline;}
+		display: block;
+	}
+}
+
+.siteNav__item {
+	color: white;
+	font-family: $heading-font;
+	font-weight: 900;
+	margin: 0 ms(1);
+	padding-bottom: ms(-1);
+	font-size: 20px;
+}
+
+.siteNav__item:hover,
+.siteNav__item.is-active {
+	background: none;
+
+	@media screen and (min-width: 1075px){
+		border-bottom: 5px solid #fff;
+		border-bottom: 5px solid #fff;
+	}
+}
+
+// Responsive elements
+
+header nav {
+	@media screen and (min-width: 1075px){
+		float: right;
+	}
+}
+
+.responsiveNavTrigger {
+	margin-bottom: ms(1);
+	background: none;
+
+	@media screen and (min-width: 1075px){
+		float: right;
+	}
+
+	&:hover {background: none;}
+}
+@media screen and (min-width: 1075px) {
+	.responsiveNavTrigger {
+		display: none;
+	}
+}
+
+.responsiveNavTrigger.is-active {
+	font-weight: bold;
+}
+
+
+
+/*
+
+	Interior navigation
+
+/*/
+
+.sidebar-nav {
+	.page_item {
+		@extend .border-bottom-grey;
+		list-style: none;
+		margin-bottom: 0 !important; // something is setting default li
+
+		&:first-child {@extend .p-bottom-small;}
+		&:not(:first-child) {@extend .p-bottom-small, .p-top-small;}
+
+		&.current_page_item {@extend .t-bold;}
+	}
+}
+
+#menu-guide {
+	padding-left: 0;
+	li {
+		list-style: none;
+	}
+	&.is-open {
+		&:after {
+			content: 'open';
+		}
+	}
+}
+
+
+li:not(.current-menu-ancestor) .sub-menu {
+	// display: none;
+}
+
+// .current-menu-ancestor ul {
+// 	display: block;
+// }
+
+.siteLogo {
+	display: block;
+	margin: 0 auto 2em auto;
+
+	@media screen and (min-width: 1075px){
+		margin: 0;
+		float: left;
+	}
+}

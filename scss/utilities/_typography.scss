@@ -1,0 +1,32 @@
+.t-body {font-family: $body-font;}
+.t-heading {font-family: $heading-font;}
+.t-cursive {font-family: $cursive-font;}
+.t-pointy {font-family: 'Pointy'; font-weight: 100;}
+.t-small {font-size: 14px;}
+.t-xs {font-size: 12px;}
+.t-large {font-size: ms(1);}
+.t-larger {font-size: ms(2);}
+.t-left {text-align: left;}
+.t-right {text-align: right;}
+.t-centered {text-align: center}
+.t-light {font-weight: 300}
+.t-medium {font-weight: 400;}
+.t-bold {font-weight: 600;}
+.t-heavy {font-weight: bold;}
+.t-italic {font-style: italic;}
+.t-letterspacing {letter-spacing: 2px;}
+.t-shadow {text-shadow: 2px 2px 2px rgba(0,0,0,.1);}
+.t-white {color: #fff !important;}
+.t-red {color: $red;}
+
+.t-black {color: $black;}
+.t-grey {color: #eee;}
+.t-dark-grey {color: #777;}
+
+.h2 {@extend h2;}
+.h3 {@extend h3;}
+
+.no-text-decoration {text-decoration: none;}
+.unlink:hover {
+	background: none;
+}

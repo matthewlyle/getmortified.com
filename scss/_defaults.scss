@@ -1,0 +1,96 @@
+@media screen and (max-width: 600px) {
+	html {font-size: 15px;}
+}
+
+body {
+	background-image: url('/img/background.jpg');
+	background-repeat: repeat;
+	background-position: left top;
+	font-family: $body-font;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #555;
+	padding-bottom: 20em;
+}
+
+a {
+	color: $red;
+	text-decoration: none;
+	transition: .2s;
+}
+
+a:hover {
+	background: yellow;
+}
+
+a[data-featherlight="image"]:hover {
+	background: none;
+}
+
+img:hover {background: none;}
+
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: $cursive-font;
+	color: $black;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: ms(3);
+	margin-bottom: ms(1);
+}
+
+h2 {
+	font-size: ms(2);
+	margin-bottom: .5em
+}
+
+h3 {
+	font-size: ms(1);
+	margin-bottom: .5em
+}
+
+h4 {
+	font-size: ms(0);
+}
+
+@media screen and (max-width: 600px){
+	h1, .page-title {font-size: 3rem !important}
+	h2 {font-size: 2.5rem !important}
+}
+
+p {
+	font-size: ms(0);
+	margin-bottom: ms(0);
+}
+
+strong {font-weight: 700;}
+em {font-style: italic}
+
+hr {
+	border-top: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.page-title {
+	line-height: 1;
+	margin-bottom: 1em;
+	font-family: Pointy;
+	font-weight: 100;
+	font-size: 64px;
+	margin-bottom: 2rem;
+}
+
+main {
+	// add a default margin back to lists inside the main content
+	ul {margin-bottom: ms(0);}
+}
+

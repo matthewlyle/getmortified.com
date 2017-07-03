@@ -1,0 +1,71 @@
+
+.participate-1 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/participate.png) 0 0;
+}
+
+.participate-2 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/participate.png) 100px 0;
+}
+
+.participate-3 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/participate.png) 200px 0;
+}
+
+.participate-4 {
+  width: 100px;
+  height: 100px;
+  background: url(/img/participate.png) 300px 0;
+}
+
+
+.ways-to-enjoy-web,
+.ways-to-enjoy-stage,
+.ways-to-enjoy-podcast,
+.ways-to-enjoy-film,
+.ways-to-enjoy-book,
+.ways-to-enjoy-TV {
+	background-image: url('/img/ways-to-enjoy.png');
+	background-repeat: no-repeat;
+}
+
+.ways-to-enjoy-web {
+	background-position: 0 0;
+	width: 100px;
+	height: 100px;
+}
+
+.ways-to-enjoy-stage {
+	background-position: -100px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.ways-to-enjoy-podcast {
+	background-position: 0 -100px;
+	width: 100px;
+	height: 100px;
+}
+
+.ways-to-enjoy-film {
+	background-position: -100px -100px;
+	width: 100px;
+	height: 100px;
+}
+
+.ways-to-enjoy-book {
+	background-position: -200px 0;
+	width: 100px;
+	height: 100px;
+}
+
+.ways-to-enjoy-TV {
+	background-position: -200px -100px;
+	width: 100px;
+	height: 100px;
+}
